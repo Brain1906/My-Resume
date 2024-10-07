@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@0;1&display=swap');
+
+body {
+    background-color: rgb(228, 228, 245);
+    font-family: 'Asap', sans-serif ;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contener {
+    width: 1200px;
+    margin: auto;
+}
+img {
+    border: 2px solid black;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+a:hover {
+    color: rgb(231, 22, 22);
+}
+a:active {
+    color: blue;
+}
+
+
+
+.pad-2 {
+    border: 5px solid black;
+    border-radius: 12px;
+    background: rgb(216, 212, 212);
+    padding: 30px 30px;
+}
+
+.pad-1 {
+    border: 5px solid black;
+    border-radius: 12px;
+    background: rgb(216, 212, 212);
+    padding: 30px 30px;
+}
+h3 {
+    color: brown;
+ }
+ .r-1 {
+    padding: 30px;
+ }
+
+ .btm {
+    background: rgb(145, 146, 190);
+    padding: 10px 30px;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btm:hover {
+    opacity: 0.8;
+}
+
+.pad-1 {
+    display: flex;
+}
+
+.a-1 {
+    display: block;
+    padding: 40px;
+}
+
+@media (max-width: 650px){
+    .contener {
+        display: block;
+    }
+}
+
+
+
+
+ 
